@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Admin login unsuccessful]]>
+    </line>
+    <line>
+      <![CDATA[Branches home page not opened]]>
+    </line>
+    <line>
+      <![CDATA[New Branch page not opened]]>
+    </line>
+    <line>
+      <![CDATA[Admin home page not opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[close the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19472" started-at="2018-02-21T11:47:07Z" finished-at="2018-02-21T11:47:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19472" started-at="2018-02-21T11:47:07Z" finished-at="2018-02-21T11:47:26Z">
+      <class name="RABP.testsuites.BP_TS10_validateNewBranchesHome">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:RABP.testsuites.BP_TS10_validateNewBranchesHome@7823a2f9]" name="preCondition" is-config="true" duration-ms="12680" started-at="2018-02-21T17:17:07Z" finished-at="2018-02-21T17:17:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Admin login unsuccessful]]>
+            </line>
+            <line>
+              <![CDATA[Branches home page not opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testdata()[pri:0, instance:RABP.testsuites.BP_TS10_validateNewBranchesHome@7823a2f9]" name="testdata" duration-ms="2090" started-at="2018-02-21T17:17:20Z" finished-at="2018-02-21T17:17:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New Branch page not opened]]>
+            </line>
+            <line>
+              <![CDATA[Admin home page not opened successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:RABP.testsuites.BP_TS10_validateNewBranchesHome@7823a2f9]" name="postCondition" is-config="true" duration-ms="4687" started-at="2018-02-21T17:17:22Z" finished-at="2018-02-21T17:17:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- RABP.testsuites.BP_TS10_validateNewBranchesHome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
